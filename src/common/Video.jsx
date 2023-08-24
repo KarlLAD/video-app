@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
 const Video = ({data}) => {
   return (
-    <div>Video : 
-    <a href="./detail"> {data.titre} </a>
+    <div > 
+    <a className="text-2xl font-bold underline" href={'/detail/'+data.id}> {data.titre} </a>
     <br/>
     <img src={data.image}   alt={data.titre}  className="w-[200px] h-[200px]"/>
     <br/>

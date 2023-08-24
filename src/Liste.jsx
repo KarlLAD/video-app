@@ -59,13 +59,13 @@ const Liste = () => {
         getAllVideo();
 
 
-    } , []
+                  } , []
 
 
-    );
+            );
     
   return (
-    <div>Liste : &emsp; &emsp; &emsp;
+    <div>Liste des videos : &emsp; &emsp; &emsp;
 
 
  

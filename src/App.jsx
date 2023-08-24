@@ -12,7 +12,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Routes>
         <Route path="/" element={<Liste/>} /> 
-        <Route path="/detail" element={<Detail/>} />
+        <Route path="/detail/:id" element={<Detail/>} />
 
 
       </Routes>
